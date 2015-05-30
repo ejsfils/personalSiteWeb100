@@ -1,0 +1,16 @@
+body {
+	background-color: #888C65
+}
+
+header, footer {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin:0;
+}
+
+li {
+	display: inline;
+}
