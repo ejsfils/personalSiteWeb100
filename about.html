@@ -2,26 +2,22 @@
 <html>
 	<head>
 		<title>
-			Emir F. /// About Me
+			Emir F. /// Probe
 		</title>
 		<link rel="Stylesheet" href="css/main.css"/>
 		<style>
 		#aboutMeDiv1 {
-			/*Aids in arranging "About Me" header*/
-
-			border-style: dashed;
-			border-color: #283968;             
+			/* border-style: dashed;
+			border-color: #283968;				*/	
 
 			border-width: 1px;
-			padding: 20px 0px 20px 0px;
+			padding: 20px 0px 5px 0px;
 		}
 
 
 		#imageDiv {
-			/* Aids in arranging "About Me" image layout
-
-			border-style: dashed;
-			border-color: #283968;			*/
+			/* border-style: dashed;
+			border-color: #283968;				*/	
 
 			border-width: 1px;
 			width: 600px;
@@ -30,22 +26,14 @@
 		}
 
 
-		#spaceDiv {
-			border-style: dashed;
-			border-color: #283968;
-
-			border-width: 1px;
-			padding: 20px 10px 20px 0px;
-		}
-
 
 		#aboutMeHeader {
-			color: #255;
+			color: #2A421D;
 			
 			/* Aids in arranging "About Me" image layout
 
 			border-style: dashed;
-			border-color: #283968; 				*/
+			border-color: #283968;				*/
 
 			border-width: 2px;
 			width: 395px;
@@ -55,13 +43,25 @@
 		}
 
 
-		#aboutMeDiv2 {
-			/* Aids in arranging "About Me" bio*/
+		/* The div tag below serves to make space between #aboutMeDiv1 and #aboutMeDiv2, while they are being worked on respectively.
 
+		 #spaceDiv {
 			border-style: dashed;
-			border-color: #283968;
+			border-color: #283968;             
+			border-width: 1px;
+			padding: 20px 10px 20px 0px;
+		}									    */
+
+
+		#aboutMeDiv2 {
+			/* border-style: dashed;
+			border-color: #283968;				*/		   
 
 			border-width: 2px;
+		}
+
+		#aboutMeBio {
+			text-align: center;
 		}
 
 		</style>
@@ -73,18 +73,19 @@
 		</header>
 	<hr>
 		<div>
+			<!--REMOVE underlines from links below and add hover stuff to it-->
 			<ul id="wrapper">
 				<li><a href="index.html">Home</a></li>
-				<li><a href="#work">Work</a></li>
+				<li><a href="#work">Work/Portfolio</a></li>
 				<li><a href="about.html">Probe</a></li>
-				<li><a href="#contact">Connect</a></li>
+				<li><a href="contact.html">Connect</a></li>
 			</ul>
 		</div>
 	<hr>
 	<div id="aboutMeDiv1">
 		<h2 id="aboutMeHeader">Connecting Dots, Playing with Light.</h2>
 
-		<!--The div tag, below, is used to arrange and center the "About Me" image-->
+		<!--The div tag, below, is used to arrange and center the "About Me" image. Image isn't adjusting/moving when browser is adjusted. MUST DETERMINE WHY!!!-->
 		<div id="imageDiv">
 			<img src="images/me1.jpg"/>
 		</div>	
@@ -95,9 +96,9 @@
 	<div id="spaceDiv"></div>
 
 	<div id="aboutMeDiv2">
-	<p>
-		<b>Your everyday human-watcher, fascinated by the complexitiy and inherent poetry of our being.</b>
-	</p>
+		<p id="aboutMeBio">
+			<b>I'm your everyday human-watcher, fascinated by the complexity and inherent poetry of our being. Queens, NY gets the money.</b>
+		</p>
 	</div>
 	<hr>
 	</body>

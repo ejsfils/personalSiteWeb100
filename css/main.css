@@ -2,13 +2,16 @@ body {
 	background-color: #DDDDD2;
 }
 
+
 h1, h2 {
 	color: #4F0411;
 }
 
+
 header, footer {
 	text-align: center;
 }
+
 
 #wrapper {
 
@@ -19,17 +22,27 @@ header, footer {
 
 	border-style: dashed;
 	border-color: #283968;
-	border-width: 2px; 
-
-	*/
+	border-width: 2px; 								*/
 }
+
 
 li {
 	list-style-type: none;
 	display: inline;
+}
+
+
+a:link, a:visited {
+	text-decoration: none;
+	text-transform: lowercase;
 	color: #203316;
-	font-size: 115%;
 	font-weight: bold;
 	padding: 0px 20px 0px 20px;
+	font-size: 115%;
 	word-wrap: normal;
 }
+
+a:hover, a:active {
+	color: #B0CBC0
+}
+
