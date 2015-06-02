@@ -10,18 +10,48 @@
 			/*Aids in arranging "About Me" header*/
 
 			border-style: dashed;
-			border-color: #283968;
+			border-color: #283968;             
 
 			border-width: 1px;
-			padding: 20px 0px 400px 0px;
+			padding: 20px 0px 20px 0px;
 		}
+
+
+		#imageDiv {
+			/* Aids in arranging "About Me" image layout
+
+			border-style: dashed;
+			border-color: #283968;			*/
+
+			border-width: 1px;
+			width: 600px;
+			margin: 0 auto;
+			padding-left: 200px;
+		}
+
 
 		#spaceDiv {
 			border-style: dashed;
 			border-color: #283968;
 
 			border-width: 1px;
-			padding: 20px 0px 20px 0px;
+			padding: 20px 10px 20px 0px;
+		}
+
+
+		#aboutMeHeader {
+			color: #255;
+			
+			/* Aids in arranging "About Me" image layout
+
+			border-style: dashed;
+			border-color: #283968; 				*/
+
+			border-width: 2px;
+			width: 395px;
+			margin: 0 auto;
+			padding: 0px 10px 15px 20px;
+			word-wrap: normal;
 		}
 
 
@@ -34,37 +64,31 @@
 			border-width: 2px;
 		}
 
-		#aboutMeHeader {
-			color: #255;
-			border-style: dashed;
-			border-color: #283968;
-			border-width: 2px;
-			width: 395px;
-			margin: 0 auto;
-			padding: 0px 10px 0px 20px;
-			word-wrap: normal;
-		}
-
 		</style>
 	</head>
 	<body>
 		<header>
 			<h1>Emir Fils-Aime</h1>
-			<h2>Film/Video & Photography</h2>
+			<h2>DP/Cinematographer</h2>
 		</header>
 	<hr>
 		<div>
 			<ul id="wrapper">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="#work">Work</a></li>
-				<li><a href="about.html">About Me</a></li>
-				<li><a href="#contact">Get in Touch</a></li>
+				<li><a href="about.html">Probe</a></li>
+				<li><a href="#contact">Connect</a></li>
 			</ul>
 		</div>
 	<hr>
 	<div id="aboutMeDiv1">
 		<h2 id="aboutMeHeader">Connecting Dots, Playing with Light.</h2>
-		<img src=""/>
+
+		<!--The div tag, below, is used to arrange and center the "About Me" image-->
+		<div id="imageDiv">
+			<img src="images/me1.jpg"/>
+		</div>	
+
 	</div>
 
 	<!--The div tag below serves to make space between #aboutMeDiv1 and #aboutMeDiv2, while they are being worked on respectively.-->
@@ -72,7 +96,7 @@
 
 	<div id="aboutMeDiv2">
 	<p>
-		I am a human watcher, fascinated by the complexities and inherent poetry that defines our existence. 
+		<b>Your everyday human-watcher, fascinated by the complexitiy and inherent poetry of our being.</b>
 	</p>
 	</div>
 	<hr>
