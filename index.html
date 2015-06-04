@@ -6,28 +6,61 @@
 		</title>
 		<link rel="Stylesheet" href="css/main.css"/>
 		<style>
+		#homepageMainDiv {
+			/* border-style: dashed; 
+			border-color: #283968; 								*/
+
+			border-width: 1px; 
+			padding-left: 120px;
+			width: 1032px
+		}
+
+
+		#homepageHeader1 {
+			/* Aids in arranging "Homepage" image and header layout 	
+
+			border-style: dashed;
+			border-color: #283968;								*/				
+			border-width: 1px;
+			width: 200px;
+			word-wrap: normal;
+			padding: 130px 5px 15px 0px;
+			float: left;
+			text-align: center;	
+			font-size: 105%;	
+		}
+
+
 		#homepageImageDiv {
 			/* border-style: dashed;
-			border-color: #283968;						*/					
+			border-color: #283968;								*/
+
+			display: inline-block;										
 			border-width: 1px;
 			width: 600px;
 			margin: 0 auto;
 		}
 
 
-		#homepageHeader {
-			/* Aids in arranging "Homepage" image and header layout
-
+		#homepageHeader2 {
+			/* Aids in arranging "Homepage" image and header layout 		
 			border-style: dashed;
-			border-color: #283968;						*/		
-
-			color: #4F0411;		
-			border-width: 2px;
-			width: 380px;
+			border-color: #283968;								*/					
+			color: #203316;		
+			border-width: 1px;
+			width: 220px;
 			margin: 0 auto;
 			word-wrap: normal;
-			padding-top: 10px;
+			padding-top: 130px;
 			padding-bottom: 10px;
+			float: right;
+			font-size: 105%;
+			text-align: center;
+		}
+
+		.homepage {
+			color: #203316;
+			text-transform: uppercase;
 		}
 		</style>
 	</head>
@@ -46,10 +79,17 @@
 			</ul>
 		</div>
 	<hr>
-	<div id="homepageImageDiv">
-			<img src="images/homepage2.jpg"/>
+		<div id="homepageMainDiv">
+			<div id="homepageHeader1">
+				<h2 class="homepage">Connecting Dots</h2>
+			</div>
+			<div id="homepageImageDiv">
+				<img src="images/homepage2.jpg"/>
+			</div>
+			<div id="homepageHeader2">
+				<h2 class="homepage">Playing with Light</h2>
+			</div>
 		</div>	
-	<h2 id="homepageHeader">Connecting Dots, Playing with Light.</h2>
 	</body>
 	<hr>
 	<footer>
